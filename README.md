@@ -49,10 +49,10 @@ ShopEase-E-Commerce-Frontend-Clone/
    git clone https://github.com/Prateeksri1308/ShopEase-E-Commerce-Frontend-Clone.git
    
 2.  Navigate to project folder
-    ```bash
+  
 cd ShopEase-E-Commerce-Frontend-Clone
 
-3. Open index.html in your browser
+4. Open index.html in your browser
 
 ----------
 🤝 Contribution
