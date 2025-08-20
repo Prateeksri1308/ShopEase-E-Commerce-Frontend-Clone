@@ -1,0 +1,229 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4e7ed;
+  font-family: Arial, sans-serif;
+  margin-left: .5rem;
+  margin-bottom: .5rem;
+}
+
+/* Navbar (Fixed) */
+.nav-bar {
+  background-color: #2874f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  height: 56px;
+  color: #fff;
+  /* margin-left: .5rem; */
+
+  position: fixed;       /* ✅ Fix at top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;         /* keep above content */
+}
+
+/* Add body padding so content doesn’t hide under navbar */
+body {
+  padding-top: 56px;     /* same as navbar height */
+}
+
+/* Flipkart logo + Explore Plus */
+.f-explorePlus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.2;
+}
+
+.flipkart-logo {
+  height: 25px;
+  margin-bottom: 2px;
+}
+
+.explore {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+.explore-text {
+  color: white;
+}
+
+.plus-text {
+  color: #ffe500;
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+.star {
+  height: 10px;
+  margin-left: 2px;
+}
+
+/* Search Bar */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 2px;
+  overflow: hidden;
+  width: 400px;
+  margin: 0 20px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.search-box button {
+  background: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 12px;
+  color: #2874f0;
+}
+
+/* Right Menu */
+.right-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.login-btn {
+  background: white;
+  color: #2874f0;
+  border: none;
+  padding: 6px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* Categories Row */
+.categories {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.categories a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Main Content */
+main {
+  margin-left: .5px;
+  margin-right: .5px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+/* ================== FOOTER SECTION ================== */
+.footer {
+  background-color: #172337;
+  color: #fff;
+  padding: 40px 60px 20px;
+  font-size: 14px;
+  margin-top: 2rem;
+  margin-left: -.5rem;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.footer-top h4 {
+  font-size: 12px;
+  color: #878787;
+  margin-bottom: 12px;
+}
+
+.footer-top a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.footer-top a:hover {
+  text-decoration: underline;
+}
+
+.footer-address {
+  font-size: 13px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.footer-address a {
+  color: #2874f0;
+  text-decoration: none;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  border-top: 1px solid #3a4553;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links img {
+  height: 18px;
+}
+
+.payment-icons img {
+  height: 20px;
+  margin-left: 10px;
+}
